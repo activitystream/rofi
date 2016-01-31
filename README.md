@@ -1,6 +1,6 @@
 # Rofi
 
-[![Build Status](https://circleci.com/gh/activitystream/rofi.svg?style=shield&circle-token=da7b98ddea5b7a39fdf4e716e31f81f907a4490b)](https://circleci.com/gh/activitystream/rofi)
+[![Build Status](https://circleci.com/gh/activitystream/rofi.svg?style=shield)](https://circleci.com/gh/activitystream/rofi)
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.activitystream/rofi.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.activitystream/rofu)
 
