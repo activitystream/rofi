@@ -6,11 +6,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class PropertiesSwitches implements SwitchesSource {
+public class PropertiesSwitchesSource implements SwitchesSource {
 
     private final Properties properties;
 
-    public PropertiesSwitches(String... propertiesFiles) {
+    public PropertiesSwitchesSource(String... propertiesFiles) {
         properties = new Properties();
         for (String propertyFile : propertiesFiles) {
             try {
@@ -24,7 +24,7 @@ public class PropertiesSwitches implements SwitchesSource {
     }
 
     @Override
-    public String featureValue(String feature) {
+    public String switchValue(String feature) {
         return properties.getProperty(feature);
     }
 }
