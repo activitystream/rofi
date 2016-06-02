@@ -14,4 +14,9 @@ public class Switches {
         }
         return false;
     }
+
+    public boolean isOff(String switchName){
+        return !isOn(switchName);
+    }
+
 }
