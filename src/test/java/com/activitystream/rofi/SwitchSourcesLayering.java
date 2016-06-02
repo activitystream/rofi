@@ -7,7 +7,7 @@ import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.mockito.Mockito.*;
 
-public class SwitchesTest {
+public class SwitchSourcesLayering {
     SwitchesSource src1 = mock(SwitchesSource.class);
     SwitchesSource src2 = mock(SwitchesSource.class);
     SwitchesSource src3 = mock(SwitchesSource.class);

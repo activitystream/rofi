@@ -15,7 +15,7 @@ public class EnvironmentSwitchesSource implements SwitchesSource {
     }
 
     @Override
-    public String switchValue(String switch_) {
-        return environmentParser.switchValue(switch_);
+    public String switchValue(String switchName) {
+        return environmentParser.switchValue(switchName);
     }
 }

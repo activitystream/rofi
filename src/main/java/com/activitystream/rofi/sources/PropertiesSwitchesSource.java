@@ -24,7 +24,7 @@ public class PropertiesSwitchesSource implements SwitchesSource {
     }
 
     @Override
-    public String switchValue(String feature) {
-        return properties.getProperty(feature);
+    public String switchValue(String switchName) {
+        return properties.getProperty(switchName);
     }
 }
